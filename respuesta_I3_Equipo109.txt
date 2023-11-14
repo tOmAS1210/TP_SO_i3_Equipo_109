@@ -23,3 +23,13 @@ Al intentar hacer el merge nos salía el mensaje "alredy up to date".
 
 f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
 Pull en la carpeta local a la rama de beta, se agrega al archivo "beta.txt" la información obtenida desde Linux mediante el comando "cat ifconfig", "git add .", "git commit -m (mensaje), "git push origin (nombre de la rama)".
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+Para el punto 8:
+git pull origin Aguillar (para traer la ultima version)
+desde la consola en linux:
+ifconfig
+Copio los datos al archivo "beta.txt" y escribo el nombre y apellido
+git add .
+git commit -m "mensaje"
+git push origin Aguillar
