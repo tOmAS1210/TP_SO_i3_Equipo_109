@@ -45,3 +45,24 @@ lo        Link encap:Local Loopback
           TX packets:108 errors:0 dropped:0 overruns:0 carrier:0
           collisions:0 txqueuelen:0 
           RX bytes:6805 (6.8 KB)  TX bytes:6805 (6.8 KB)
+-----------------------------------------------------------------
+Diego Uthurburu / 18:38 PM
+
+th0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.14  netmask 255.255.255.0  broadcast 10.0.2.235
+        inet6 fe80::2925:cfd7:2fd1:e68b  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:cb:7e:f5  txqueuelen 1000  (Ethernet)
+        RX packets 1  bytes 590 (590.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 22  bytes 3034 (2.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 124.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4  bytes 240 (240.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 240 (240.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
