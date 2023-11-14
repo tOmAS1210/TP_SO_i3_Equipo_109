@@ -1,0 +1,16 @@
+Thomas Aguilar Arguello
+Famozo Luca
+Uthurburu Diego
+
+Responde BETA:
+a-¿Como queda El master después de estos cambios?
+El master queda con los datos de la rama de Gamma y Beta
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+si 
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+git checkout (nombre de la rama)
+git merge (nombre de la rama a fusionar)
+git commit -m "mensaje"
+git push origin (nombre de la rama)
